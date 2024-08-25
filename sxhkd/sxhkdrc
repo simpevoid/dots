@@ -1,0 +1,18 @@
+
+super + w
+	firefox
+
+super + {equal, minus, BackSpace}
+ 	/home/void/scrpits/volume.sh {up, down, toggle}
+
+super + shift + BackSpace
+	/home/void/scrpits/exit.sh 
+
+super + d
+	dmenu_run
+
+super + Print 
+	maim -s ~/Pictures/$(date +%s).png
+
+super + p 
+	mpv $(xclip -o)
